@@ -20,7 +20,7 @@
       
       var username = document.getElementById('username').value;
       var password = document.getElementById('password').value;
-      var rememberMe = document.getElementById('rememberMe').checked;
+      var rememberMe = document.getElementById('checkbox').checked;
       
       if (rememberMe) {
         localStorage.setItem('username', username);
